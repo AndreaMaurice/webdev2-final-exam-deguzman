@@ -12,8 +12,8 @@ class Twilio
     public static function sendMessage($fname, $phone, $bsdate, $bstime)
     {
     // Your Account SID and Auth Token from twilio.com/console
-    $account_sid = 'AC6147566d1e91d7aecd30c2996aaf4391'; 
-    $auth_token = '55dc5f534999bc20010664280c7c8ce1';
+    $account_sid = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'; 
+    $auth_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX';
     // In production, these should be environment variables. E.g.:
     // $auth_token = $_ENV["TWILIO_AUTH_TOKEN"]
 
