@@ -7,8 +7,9 @@
         "watch-poll": "mix watch -- --watch-options-poll=1000",
         "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "mix --production",
-        
+        "production": "mix --production"
+    },
+    "devDependencies": {
         "@tailwindcss/ui": "^0.3",
         "autoprefixer": "^9.6",
         "axios": "^0.21",
@@ -20,7 +21,7 @@
         "tailwindcss": "^1.8",
         "vue-template-compiler": "^2.6.11"
     },
-    "devDependencies": {
+    "dependencies": {
         "@tailwindcss/ui": "^0.3",
         "autoprefixer": "^9.6",
         "axios": "^0.21",
