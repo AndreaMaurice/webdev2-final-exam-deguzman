@@ -42,10 +42,10 @@
                         </div>
 
                         <div class="block pb-1">
-                            <label for="phone">Phone No. (+639):</label>
+                            <label for="phone">Phone Number:</label>
                             </div>
                             <div class="block pb-2">
-                                <input type="tel" name="phone" id="" class="shadow-sm border-blue-400 border rounded">
+                                <input type="tel" name="phone" id="" class="shadow-sm border-blue-400 border rounded" placeholder="use +639 format">
                             </div>
 
                         <div class="block pb-1">
