@@ -10,9 +10,6 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                   /* <th>Email</th>
-                    <th>Birthdate</th>
-                    <th>Religion</th> */
                     <th>Bible Study Date & Time</th>
                     <th>Bible Study Location</th>
                 </tr>
@@ -21,9 +18,6 @@
                 @foreach ($bsrequests as $bsrequest)
                 <tr>
                     <td>{{ $bsrequest->lname }}, {{ $bsrequest->fname }}</td>
-                   /*  <td>{{ $bsrequest->email }}</td>
-                    <td>{{ $bsrequest->bdate }}</td>
-                    <td>{{ $bsrequest->religion }}</td> */
                     <td>{{ $bsrequest->bsdate }} | {{ $bsrequest->bstime }}</td>
                     <td>{{ $bsrequest->location }}</td>
                 </tr>
